@@ -7108,7 +7108,7 @@ sensor</text>
 <instance part="SUPPLY10" gate="G$1" x="266.7" y="218.44"/>
 <instance part="JP1" gate="G$1" x="251.46" y="205.74"/>
 <instance part="JP2" gate="G$1" x="251.46" y="190.5"/>
-<instance part="SUPPLY6" gate="G$1" x="203.2" y="218.44"/>
+<instance part="SUPPLY6" gate="G$1" x="198.12" y="208.28" rot="R90"/>
 <instance part="GND12" gate="1" x="243.84" y="180.34"/>
 <instance part="SUPPLY7" gate="G$1" x="213.36" y="154.94"/>
 <instance part="SUPPLY5" gate="G$1" x="172.72" y="154.94"/>
@@ -7130,8 +7130,8 @@ sensor</text>
 <instance part="R9" gate="G$1" x="279.4" y="195.58" rot="R180"/>
 <instance part="R8" gate="G$1" x="279.4" y="210.82" rot="R180"/>
 <instance part="R2" gate="G$1" x="220.98" y="132.08" rot="R180"/>
-<instance part="R3" gate="G$1" x="228.6" y="220.98" rot="R270"/>
-<instance part="SUPPLY8" gate="G$1" x="228.6" y="228.6"/>
+<instance part="R3" gate="G$1" x="220.98" y="210.82"/>
+<instance part="SUPPLY8" gate="G$1" x="210.82" y="210.82" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7304,9 +7304,8 @@ sensor</text>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
-<wire x1="203.2" y1="208.28" x2="203.2" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="VBUS"/>
-<wire x1="203.2" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="208.28" x2="248.92" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
@@ -7423,7 +7422,7 @@ sensor</text>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="228.6" x2="228.6" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="210.82" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!F0" class="0">
@@ -7680,9 +7679,8 @@ sensor</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="D-"/>
-<wire x1="228.6" y1="210.82" x2="248.92" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="210.82" x2="248.92" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="210.82" x2="228.6" y2="215.9" width="0.1524" layer="91"/>
 <label x="233.68" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
