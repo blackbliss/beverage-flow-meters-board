@@ -153,6 +153,7 @@
 <hole x="2.54" y="44.45" drill="3.2"/>
 <hole x="2.54" y="13.97" drill="3.2"/>
 <hole x="74.93" y="29.21" drill="3.2"/>
+<text x="1.27" y="27.94" size="1.778" layer="16" rot="MR90">v1</text>
 </plain>
 <libraries>
 <library name="Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL">
