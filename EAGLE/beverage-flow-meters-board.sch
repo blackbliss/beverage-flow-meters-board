@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7001,7 +7001,7 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 </library>
 </libraries>
 <attributes>
-<attribute name="CNAME" value="suliss sensor board v1"/>
+<attribute name="CNAME" value="beverage-flow-meters-board-v1"/>
 <attribute name="CREVISION" value="v1"/>
 <attribute name="DESIGNER" value="Daniele Costarella"/>
 </attributes>
