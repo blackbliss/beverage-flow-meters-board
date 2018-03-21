@@ -7,13 +7,13 @@ The board is designed specifically as a flow-measurement solution for the drink 
 
 ### How do I get set up? ###
 
-$ git clone https://github.com/blackbliss/beverage-flow-meters-board.git
+    $ git clone https://github.com/blackbliss/beverage-flow-meters-board.git
 
 ### What's included ###
 
-**Datasheets** — Datasheets for the various components.\\
-**EAGLE** — Schematic and board files\\
-**Gerber** — Complete set of Gerber files for the current version of the project.\\
+* **Datasheets** — Datasheets for the various components.
+* **EAGLE** — Schematic and board files
+* **Gerber** — Complete set of Gerber files for the current version of the project.
 
 ### Hardware connections ###
 
